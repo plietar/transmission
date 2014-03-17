@@ -30,6 +30,7 @@ Attributes
 * `node["transmission"]["download_dir"]` - Directory to move complete files to, default `/var/lib/transmission-daemon/downloads`.
 * `node["transmission"]["incomplete_dir"]` - Directory to keep incomplete files in, default `/var/lib/transmission-daemon/incomplete`.
 * `node["transmission"]["incomplete_dir_enabled"]` - Whether the incomplete file directory is used, default `false`.
+* `node["transmission"]["umask"]` - File mode creation mask, in base 10, default 18 (022 in octal).
 * `node["transmission"]["speed_limit_down"]` - The KB/s limit for downloading files, default `100`.
 * `node["transmission"]["speed_limit_down_enabled"]` - Whether the download limit is used, default `false`.
 * `node["transmission"]["speed_limit_up"]` - The KB/s limit for uploading files, default `100`.
